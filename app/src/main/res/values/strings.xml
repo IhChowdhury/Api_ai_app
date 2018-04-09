@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">E Advising Care</string>
+    <string name="subscribe_now">SUBSCRIBE NOW</string>
+    <string name="clients_subscribed_right_now">CLIENTS SUBSCRIBED RIGHT NOW</string>
+    <string name="_36_520">36,520</string>
+    <string name="todo">TODO</string>
+    <string name="welcome_to_story_mine">Welcome to Story Mine</string>
+    <string name="title_activity_main_main">mainMain</string>
+    <string name="title_activity_main2">Main2Activity</string>
+</resources>
