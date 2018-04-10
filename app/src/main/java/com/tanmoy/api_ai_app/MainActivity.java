@@ -80,7 +80,7 @@ public class MainActivity extends AppCompatActivity implements AIListener {
                     Toast.makeText(getApplicationContext(),"Enter Your Question...",Toast.LENGTH_SHORT).show();
                     return;
                 }
-                String msg = editmessagetext.getText().toString();
+                String msg = editmessagetext.getText().toString().trim();
                 NewMessage newMessage = new NewMessage("You",msg,getTime(),R.drawable.profile_pic);
                 messageList.add(newMessage);
                 messageAdapter.notifyDataSetChanged();
