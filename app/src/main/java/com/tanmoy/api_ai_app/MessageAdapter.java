@@ -55,7 +55,7 @@ public class MessageAdapter extends RecyclerView.Adapter<MessageAdapter.MyViewHo
         NewMessage message = messagelist.get(position);
 
         holder.userName.setText(message.getUser());
-        holder.userMessage.setText(message.getMessage());
+        holder.userMessage.setText(message.getMessage().replaceAll("\\\\n","\n"));
         holder.messagetime.setText(message.getTime());
         if(message.getUser().equalsIgnoreCase("You")){
             holder.messageCardLayout.setBackgroundResource(R.drawable.rounded_rectangle_orange);
